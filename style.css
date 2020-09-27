@@ -1,0 +1,32 @@
+body{
+    background: url('./images/Background\ image.jpeg') no-repeat center fixed;
+    background-size: cover;
+    height: 100%;
+    }
+img {
+    float: left;
+    margin: 25px;
+    }
+#about-me {
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 100%;
+    }
+.card{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    float: right; 
+    padding: 10px;
+    }
+p{
+    width: 100%;
+    }
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    position: fixed;
+    }
