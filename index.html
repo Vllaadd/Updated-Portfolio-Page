@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,7 +14,7 @@
 <body>
     <div class="container">
         <!--nav-->
-                <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
+                <!-- <nav class="navbar navbar-expand-sm fixed-top navbar-dark bg-dark">
                     <a class="navbar-brand" href="index.html">Vlad`s portfolio</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
                     <span class="navbar-toggler-icon"></span>
@@ -25,18 +25,18 @@
                             <li class="nav-item"><a class="nav-link" href="portfolio.html">Gallery</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
-                    </div> -->
-                </nav>  
+                    </div>
+                </nav>   -->
         <!--row-1-->
                     <div class="row">
         <!--col-1-->          
-                        <div class="col-lg-4" id="about-me">
+                        <div class="col-sm-4" id="about-me">
                                     <h3>Welcome to my page</h3>
                                     <p>I am a customer service professional with more than 10 years of international experience. In 2020 my journey to Full-Stack Software Engineering started. While currently attending a coding Bootcamp at Columbia University., I am eager to reach excellence in JavaScript, Node.js, OOP, and React through opportunities, including volunteering.</p>
                         </div> 
 <!-- Safe Space -->
                         <div class="col-sm-6">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" id="fade-in" style="width: 18rem;">
                                 <img src="./images/Safe Space.png" class="img-fluid" alt="Safe Space Homepage">
                                 <div class="card-body">
                                   <h5 class="card-title">Safe Space</h5>
@@ -47,7 +47,8 @@
                               </div>
                         </div>
 <!-- Hook Up In Your Hood -->
-                        <div class="col-sm-6"><div class="card" style="width: 18rem;">
+                        <div class="col-sm-6">
+                          <div class="card" id="fade-in" style="width: 18rem;">
                             <img src="./images/Hook Up In Your Hood.png" class="img-fluid" alt="Hook Up In Your Hood Homepage">
                             <div class="card-body">
                               <h5 class="card-title">Hook Up In Your Hood</h5>
@@ -60,7 +61,7 @@
                         </div>
 <!-- Weather Dashboard -->
                         <div class="col-sm-6">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" id="fade-in" style="width: 18rem;">
                                 <img src="./images/Weather Dashboard.png" class="img-fluid" alt="Weather Dashboard Homepage">
                                 <div class="card-body">
                                   <h5 class="card-title">Weather Dashboard</h5>
@@ -72,7 +73,7 @@
                         </div>
 <!-- Workday Scheduler -->
                         <div class="col-sm-6">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" id="fade-in" style="width: 18rem;">
                                 <img src="./images/Workday Scheduler.png" class="img-fluid" alt="Workday Scheduler Homepage">
                                 <div class="card-body">
                                   <h5 class="card-title">Workday Scheduler</h5>
@@ -82,9 +83,6 @@
                                 </div>
                               </div>
                         </div>
-                        
-
-                        
-
+<script src="script.js"></script>
 </body>
 </html>
