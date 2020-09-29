@@ -21,10 +21,16 @@ p{
 
 #safe-space,
 #hook-up,
-#weather
-#scheduler{
+#weather,
+#scheduler,
+#password,
+#quiz{
     margin: 20px 5px 20px 5px;
     padding: 30px;
+}
+
+img{
+    
 }
 
 .col-sm-6{
