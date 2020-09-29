@@ -1,5 +1,5 @@
 .container{
-    height: 2000px;
+    height: 3000px;
 }
 
 body{
@@ -19,22 +19,14 @@ p{
     width: 100%;
     }
 
-#safe-space{
-    margin: 20px 20px 20px 20px;
-}
-
-#hook-up{
-    margin: 200px 20px 20px 20px;
-}
-
-#weather{
-    margin: 20px 20px 20px 20px;
-}
-
+#safe-space,
+#hook-up,
+#weather
 #scheduler{
-    margin: 200px 20px 20px 20px;
+    margin: 20px 5px 20px 5px;
+    padding: 30px;
 }
 
-.fade-in{
+.col-sm-6{
     opacity: 0;
 }
