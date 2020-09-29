@@ -30,9 +30,11 @@ p{
 }
 
 img{
-    
+    width: 400px;
+    height: 400px;
 }
 
 .col-sm-6{
     opacity: 0;
+    text-align: center;
 }

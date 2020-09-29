@@ -4,7 +4,7 @@ $(document).ready(function(){
             var bottomOfObject = $(this).position().top + $(this).outerHeight();
             var bottomOfWindow = $(window).scrollTop() + $(window).height();
             if(bottomOfWindow > bottomOfObject){
-                $(this).animate({'opacity': '1'}, 1500);
+                $(this).animate({'opacity': '1'}, 500);
             }
         })
     })
