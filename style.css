@@ -7,13 +7,14 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: 100% 100%;
+    background-size: cover;
     }
 
 #about-me {
     margin-left: 500px;
     margin-top: 200px;
     width: 100%;
+    font-family: 'Homemade Apple', cursive;
     }
 p{
     width: 100%;
